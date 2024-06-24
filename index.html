@@ -1,0 +1,205 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Database contenente schede prosopografiche e storia dei Monuments men e Monuments women italiani, con catalogo della documentazione relativa alle operazioni di salvataggio e raccolta delle opere protette durante il secondo conflitto mondiale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2024-06-24">
+	<META NAME="DC.Type" CONTENT="Sito web">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="tbd">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--bootstrap css 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">	
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+	<header>
+		<div id="top" class="header"></div>
+		<!--barra di navogazione-->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid bg-dark">
+  				<a class="navbar-brand" href="index.html">ITALIAN MONUMENTS MEN AND WOMEN</a>
+  				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+	    		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+	      			<ul class="navbar-nav">
+	        			<li class="nav-item">
+	          				<a class="nav-link active" href="index.html">Home</a>
+	        			</li>
+	        			<li class="nav-item dropdown">
+			          		<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Esplora</a>
+			          			<ul class="dropdown-menu">
+			            			<li><a class="dropdown-item" href="protagonisti.html">Protagonisti</a></li>
+			            			<li><a class="dropdown-item" href="catalogo.html">Catalogo</a></li>
+			            			<li><a class="dropdown-item" href="#">Mappa</a></li>
+			            			<li><a class="dropdown-item" href="#">Linea del tempo </a></li>
+			          			</ul>
+	        			</li>
+		        		<li class="nav-item dropdown">
+				          	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Ricerca</a>
+					          	<ul class="dropdown-menu">
+					            	<li><a class="dropdown-item" href="#">Archivi</a></li>
+						            <li><a class="dropdown-item" href="#">Musei</a></li>
+						            <li><a class="dropdown-item" href="#">Bibliografia</a></li>
+						            <li><a class="dropdown-item" href="#">Documentari</a></li>
+					          </ul>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="#">News</a>
+		        		</li> 
+					</ul>
+	    		</div>
+			</div>
+		</nav>
+	</header>
+	<section>
+		<!-- carosello -->
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+	  	<!-- indicators in basso -->
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+		    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+		  </div>
+		  <!-- immagini -->
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img src="img/trasporto.jpg" alt="Trasporto delle opere d'arte dal Palazzo Ducale di Urbino" class="d-block" style="width:1400px; height:550px">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/camion2.jpg" alt="Trasporto delle opere d'arte dal Museo Archeologico Regionale Antonio Salinas di Palermo" class="d-block" style="width:1400px; height:550px">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/soldati.jpg" alt="Soldati statunitensi recuperano il Polittico dell'Agnello Mistico" class="d-block" style="width:1400px; height:550px">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/soldati2.jpg" alt="Soldati statunitensi con il Giardino d'inverno di Manet" class="d-block" style="width:1400px; height:550px">
+		    </div>
+		    <div class="carousel-item">
+		      <img src="img/soldati3.jpg" alt="Soldati statunitensi con la Dama con Ermellino di Leonardo da Vinci" class="d-block" style="width:1400px; height:550px">
+		    </div>
+		  </div>
+		  <!-- frecce dx sx -->
+		  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon"></span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+		    <span class="carousel-control-next-icon"></span>
+		  </button>
+		</div>
+	</section>
+	<!--progetto-->
+	<section>
+		<div class="container-fluid pb-3 pt-3">
+			<div class="row">
+				<h2>Il progetto</h2>
+				<p style="text-align:justify">Nel contesto della salvaguardia del patrimonio storico-artistico durante la Seconda Guerra 
+				Mondiale è rilevante il contributo del <b>Monuments, Fine Arts and Archives Program</b>. Lo scopo 
+				del programma era quello di inviare ufficiali formati nell’ambito della Storia dell’Arte, 
+				comunemente noti come <em>monuments men</em>, nei paesi colpiti dalla guerra con il compito di individuare beni di particolare valore artistico e provvedere alla loro tutela.</p>
+				<p style="text-align:justify">I <em>monuments men</em> arrivarono in Italia nel 1943 dove, già all’indomani dell’entrata in guerra 
+				del paese, i funzionari del Governo stavano provvedendo alla tutela del patrimonio artistico. In 
+				virtù del loro operato, questi soprintendenti, ispettori, direttori di musei e storici dell’arte 
+				possono essere considerati <em>monuments men</em> e <em>women</em>, anche se i loro nomi non figurano 
+				nell’elenco ufficiale del <b>MFAA</b>.</p>
+				<p style="text-align:justify">A differenza degli ufficiali alleati, le cui schede biografiche si trovano sul sito della 
+				<em><a class="link" href="https://www.monumentsmenandwomenfnd.org/" target="_blank">Monuments men and women Foundation</a></em>, per quelli italiani manca un database. La presente ricerca è stata condotta con l’obiettivo di impostare tale banca dati.</p>
+			</div>
+		</div>
+	</section>
+	<!--esplora la raccolta-->
+	<section>
+		<div class="container-fluid pb-3 bg-secondary text-white">
+			<div class="row">
+				<h2>Esplora la raccolta</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card" style="width: 18rem; height: 16rem">
+  						<div class="card-body">
+				    		<h5 class="card-title">Protagonisti</h5>
+				    		<p class="card-text" style="text-align:justify">I dati raccolti durante la ricerca hanno permesso di realizzare le schede prosopografiche delle figure analizzate.</p>
+				    	</div>
+				    	<div class="card-footer">
+				    		<a href="protagonisti.html" class="btn btn-dark text-white">Conosci i protagonisti</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card" style="width: 18rem; height: 16rem">
+  						<div class="card-body">
+				    		<h5 class="card-title">Catalogo</h5>
+				    		<p class="card-text" style="text-align:justify">Le operazioni di salvataggio del patrimonio artistico sono state accompagnate da un'ampia documentazione, qui consultabile.</p>
+				    	</div>
+				    	<div class="card-footer"> 
+				    		<a href="catalogo.html" class="btn btn-dark text-white">Sfoglia il catalogo</a>
+					   </div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card" style="width: 18rem; height: 16rem">
+  						<div class="card-body">
+				    		<h5 class="card-title">Mappa interattiva</h5>
+				    		<p class="card-text" style="text-align:justify">Attraverso la Mappa interattiva è possibile individuare i luoghi dove queste vicende si sono svolte.</p>
+				    	</div>
+				    	<div class="card-footer"> 
+				    		<a href="#" class="btn btn-dark text-white">Viaggia nello spazio</a>
+  						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="card" style="width: 18rem; height: 16rem">
+  						<div class="card-body">
+				    		<h5 class="card-title">Linea del tempo</h5>
+				    		<p class="card-text" style="text-align:justify">La Linea del tempo permette di collocare le operazioni di salvataggio dei beni culturali nel contesto della Seconda Guerra Mondiale.</p>
+				    	</div>
+				    	<div class="card-footer"> 		    		
+				    		<a href="#" class="btn btn-dark text-white">Viaggia nel tempo</a>
+  						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--freccia-->
+	<section>
+		<div class="freccia" style="text-align: center"><a href="#top"><img src="img/freccia3.png"/></a></div>
+	</section>
+	<!--pre-footer-->
+	<section>
+		<div class="container-fluid bg-light text-black">
+			<div class="pre-footer" style="text-align: center">Credits | Licenze</div>
+		</div>
+	</section>
+	<!--footer-->
+	<footer>
+		<div class="container-fluid bg-dark text-white">
+			<div class="footer" style="text-align: center"> &copy; Elisa Poloni 2024 - Corso di Digital Humanities e Patrimonio Culturale</div>
+		</div>
+	</footer>
+	<!--bootstrap script-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

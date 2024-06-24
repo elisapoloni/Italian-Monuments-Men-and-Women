@@ -1,0 +1,262 @@
+<!DOCTYPE html> <!--stringa di codice che dà una serie di informazioni utili al browser per restituirle all’utente. Dichiara il tipo di documento che stai presentando-->
+<html lang=it>
+<head>
+	<title>Italian Monuments Men and Women</title>
+	<meta charset="UTF-8" /> <!-- l'attributo charset specifica la codifica dei caratteri per il documento HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- tag Viewport: influisce sul modo in cui i tuoi contenuti vengono visualizzati sui dispositivi mobili. Con width=device-width ci si assicura che la pagina venga ridimensionata per corrispondere alla larghezza dello schermo, che varierà anche a seconda del dispositivo dell'utente. initial-scale=1.0 imposta il livello di zoom iniziale quando la pagina viene caricata per la prima volta dal browser -->
+	<!--metadati DC-->
+	<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+	<META NAME="DC.Title" CONTENT="Italian Monuments Men and Women">
+	<META NAME="DC.Creator" CONTENT="Poloni, Elisa">
+	<META NAME="DC.Subject" CONTENT="Salvataggio">
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/8167"> <!--Beni culturali nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Subject" CONTENT="http://purl.org/bncf/tid/16826"> <!--Seconda Guerra Mondiale nel Nuovo Soggettario BNC-->
+	<META NAME="DC.Description" CONTENT="Database contenente schede prosopografiche e storia dei Monuments men e Monuments women italiani, con catalogo della documentazione relativa alle operazioni di salvataggio e raccolta delle opere protette durante il secondo conflitto mondiale">
+	<META NAME="DC.Publisher" CONTENT="GitHub">
+	<META NAME="DC.Date" CONTENT="2024-06-24">
+	<META NAME="DC.Type" CONTENT="Sito web">
+	<META NAME="DC.Format" CONTENT="HTML/CSS/JS">
+	<META NAME="DC.Identifier" CONTENT="tbd">
+	<META NAME="DC.Source" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Relation" CONTENT="https://www.monumentsmenandwomenfnd.org/">
+	<META NAME="DC.Coverage" CONTENT="http://vocab.getty.edu/page/tgn/7004847"> <!--Bologna nel Getty Thesaurus of Geographic Names-->
+	<META NAME="DC.Rights" content="This work is licensed under CC BY-NC-ND 4.0"> <!--BY: Credit must be given to you, the creator; NC: Only noncommercial use of your work is permitted. Noncommercial means not primarily intended for or directed towards commercial advantage or monetary compensation; ND: No derivatives or adaptations of your work are permitted.-->
+	<!--css-->
+	<link rel=stylesheet href=style/style.css>
+	<!--bootstrap 5.3-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">	
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<!--icone bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+	<header>
+		<div id="top" class="header"></div>
+		<!--barra di navogazione-->
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<div class="container-fluid bg-dark">
+  				<a class="navbar-brand" href="index.html">ITALIAN MONUMENTS MEN AND WOMEN</a>
+  				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+	    		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+	      			<ul class="navbar-nav">
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="index.html">Home</a>
+		        		</li>
+	        			<li class="nav-item dropdown">
+			          		<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Esplora</a>
+				          		<ul class="dropdown-menu">
+						            <li><a class="dropdown-item" href="protagonisti.html">Protagonisti</a></li>
+						            <li><a class="dropdown-item bg-dark text-white active" href="catalogo.html">Catalogo</a></li>
+						            <li><a class="dropdown-item" href="#">Mappa</a></li>
+						            <li><a class="dropdown-item" href="#">Linea del tempo </a></li>
+				          		</ul>
+	        			</li>
+		        		<li class="nav-item dropdown">
+				          	<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Ricerca</a>
+				          		<ul class="dropdown-menu">
+						            <li><a class="dropdown-item" href="#">Archivi</a></li>
+						            <li><a class="dropdown-item" href="#">Musei</a></li>
+						            <li><a class="dropdown-item" href="#">Bibliografia</a></li>
+						            <li><a class="dropdown-item" href="#">Documentari</a></li>
+				          		</ul>
+		        		</li>
+		        		<li class="nav-item">
+		          			<a class="nav-link" href="#">News</a>
+		        		</li> 
+					</ul>
+				</div>
+	    	</div>
+		</nav>
+	</header>		
+	<main>
+		<section>
+			<div class="container-fluid bg-secondary text-white">
+				<!--titolo della pagina-->
+				<div class="row">
+					<div class="col-12">
+						<h2 class="page-title">LE FOTOGRAFIE</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+			<div class="row">
+				<!--colonna sx-->
+				<div class="col-2">
+				<!--breadcrumbs-->
+					<div class="row">
+			        	<nav aria-label="breadcrumb">
+						  <ol class="breadcrumb">
+						    <li class="breadcrumb-item"><a class="link"href="index.html">Home</a></li>
+						    <li class="breadcrumb-item"><a class="link"href="catalogo.html">Catalogo</a></li>
+						    <li class="breadcrumb-item active" aria-current="page">Fotografie</li>
+						  </ol>
+						</nav>
+			        </div>
+			    <!-- filtri -->
+		        	<div class="row">
+                		<h5>Metti in ordine:</h5>
+							<div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+								<input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+							  	<label class="btn btn-outline-secondary" for="btnradio1">Più recente</label>
+							  	<input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+							  	<label class="btn btn-outline-secondary" for="btnradio2">Meno recente</label>
+							</div>		                	
+					</div>
+					<div class="row">
+                        <h5>Filtra per:</h5>
+                          	<div class="dropdown mb-2">
+							  	<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							    Luogo
+							  	</button>
+									<ul class="dropdown-menu">
+									   	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  								<label class="form-check-label" for="flexCheckDefault">Milano</label></a></li>
+									   	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  								<label class="form-check-label" for="flexCheckDefault">Roma</label></a></li>
+									   	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		  								<label class="form-check-label" for="flexCheckDefault">Urbino</label></a></li>
+									</ul>
+							</div>
+							<div class="dropdown mb-2">
+							  	<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							    Istituto
+							  	</button>
+							  		<ul class="dropdown-menu">
+								    	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	  									<label class="form-check-label" for="flexCheckDefault">Pinacoteca di Brera</label></a></li>
+								    	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	  									<label class="form-check-label" for="flexCheckDefault">GNAM</label></a></li>
+							  		</ul>
+							</div>
+							<div class="dropdown mb-2">
+							  	<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							    Protagonista
+							  	</button>
+							  		<ul class="dropdown-menu">
+								    	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	  									<label class="form-check-label" for="flexCheckDefault">Pasquale Rotondi</label></a></li>
+								    	<li><a class="dropdown-item" href="#"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+	  									<label class="form-check-label" for="flexCheckDefault">Palma Bucarelli</label></a></li>
+							  		</ul>
+							</div>
+                	</div>
+				<!--barra di ricerca-->
+			        <div class="row">
+			        	<form class="d-flex">
+			        		<input class="form-control me-2" type="text" placeholder="Search">
+			        		<botton type="submit" class="btn btn-dark text-white"><i class="bi bi-search"></i></botton>
+			      		</form>
+			      	</div>  	
+				</div> <!--chiusa colonna sx-->
+				<!--colonna dx con dentro altre due righe con dentro 3 colonne ciascuno-->
+				<div class="col-10">
+					<div class="row">
+						<!--foto Rocca Sassocorvaro-->
+						<div class="col-md-4">
+							<div class="card">
+								<img src="img/Sassocorvaro.jpg" class="card-img" alt="..">
+									<div class="card-hover">
+										<p class="card-info"><a class="stretched-link" href="item.html" style="text-decoration: none">Rocca di Sassocorvaro</a></p>
+									</div>
+							</div>
+						</div>
+						<!--foto protezione Ercole e Lica-->
+						<div class="col-md-4">
+							<div class="card">
+								<img src="img/canova.jpg" class="card-img" alt=".." style="width:100%">
+									<div class="card-hover">
+										<p class="card-info"><a class="stretched-link" href="#" style="text-decoration: none">Protezione antiaerea per la scultura Ercole e Lica di Canova nella Galleria Nazionale d’Arte Moderna di Roma</a></p>
+									</div>
+							</div>
+						</div>
+						<!--foto ricovero opere d'arte Torino-->
+						<div class="col-md-4">
+							<div class="card">
+								<img src="img/gabrielli3.png" class="card-img" alt=".." style="width:100%">
+								<div class="card-hover">
+									<p class="card-info"><a class="stretched-link" href="#" style="text-decoration: none">Ricovero delle opere d’arte nei sotterranei della Galleria Sabauda di Torino</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<!--foto trasporto opere Palazzo Ducale Urbino-->
+						<div class="col-md-6">
+							<div class="card">
+								<img src="img/trasporto.jpg" class="card-img" alt=".." style="width:100%">
+								<div class="card-hover">
+									<p class="card-info"><a class="stretched-link" href="#" style="text-decoration: none">Trasporto delle opere d’arte dal Palazzo Ducale di Urbino</a></p>
+								</div>
+							</div>
+						</div>
+						<!--soldati con Polittico Agnello Mistico-->
+						<div class="col-md-6">
+							<div class="card">
+								<img src="img/soldati.jpg" class="card-img" alt=".." style="width:100%">
+								<div class="card-hover">
+									<p class="card-info"><a class="stretched-link" href="#" style="text-decoration: none">Il <em>Polittico dell'Agnello Mistico</em> durante il recupero dal deposito artistico nella miniera di sale di Altaussee</a></p>
+								</div>
+  							</div>
+						</div>
+					</div>
+					<div class="row">
+						<!--soldati con Giardino d'inverno-->
+						<div class="col-md-6">
+							<div class="card">
+								<img src="img/soldati2.jpg" class="card-img" alt=".." style="width:100%">
+								<div class="card-hover">
+									<p class="card-info"><a class="stretched-link" href="#" style="text-decoration: none">Soldati statunitensi a Merkers (Germania) esaminano il <em>Giardino d'inverno</em> di Edouard Manet, trovato in una miniera di sale</a></p>
+								</div>
+							</div>
+						</div>
+						<!--soldati con Dama ermellino-->
+						<div class="col-md-6">
+							<div class="card">
+								<img src="img/soldati3.jpg" class="card-img" alt=".." style="width:100%">
+								<div class="card-hover">
+									<p class="card-info"><a class="stretched-link" href="#" style="text-decoration: none">Il salvataggio di <em>Dama con Ermellino</em></a></p>
+								</div>
+							</div>
+						</div>
+					</div> <!--chiusa row-->
+				</div> <!--chiusa colonna dx-->
+			</div> <!--chiuso container-->
+			<!--pagination-->
+			<div class="row">
+				<div class="col-md-12">
+					<ul class="pagination justify-content-center" style="margin:20px 0">
+					  <li class="page-item disabled"><a class="page-link" href="#">Indietro</a></li>
+					  <li class="page-item"><a class="page-link active bg-dark text-white" href="#">1</a></li>
+					  <li class="page-item"><a class="page-link text-black" href="#">2</a></li>
+					  <li class="page-item"><a class="page-link text-black" href="#">3</a></li>
+					  <li class="page-item"><a class="page-link text-black" href="#">Avanti</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!--freccia-->
+	<section>
+		<div class="freccia" style="text-align: center"><a href="#top"><img src="img/freccia3.png"/></a></div>
+	</section>
+	<!--pre-footer-->
+	<section>
+		<div class="container-fluid bg-light text-black">
+			<div class="pre-footer" style="text-align: center">Credits | Licenze</div>
+		</div>
+	</section>
+	<!--footer-->
+	<footer>
+		<div class="container-fluid bg-dark text-white">
+			<div class="footer" style="text-align: center"> &copy; Elisa Poloni 2024 - Corso di Digital Humanities e Patrimonio Culturale</div>
+		</div>
+	</footer>
+	<!--bootstrap script-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
