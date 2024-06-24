@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp:metadata xmlns:mp="http://example.org/MyProject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/">
+	<!--xsi consente di utilizzare determinati attributi fra gli attributi del controllo del DC e avere come valore schemi che il DC prevede di poter utilizzare-->
+	<!--con xsi:type stabilisco che tipo di vocabolario controllato sto utilizzando per esprimere, in vista dell’interoperabilità e l’interscambio, un descrittore di soggetto-->
+	<!--xsi:type=”mp:viaf” significa che nel my project voglio mettere viaf come sistema di controllo autorità. Con mp:ref=”link” identifico un attributo ref nel my project (riferimento a qualcosa)-->
+	<dc:title xsi:type="mp:viaf" mp:ref="http://viaf.org/viaf/181162265">La Tempesta</dc:title>
+	<dc:creator xsi:type="mp:viaf" mp:ref="http://viaf.org/viaf/39385864">Giorgione</dc:creator>
+	<dc:creator>Giorgio da Castelfranco</dc:creator>
+	<dc:subject xsi:type="dcterms:LCSH" mp:ref="http://id.loc.gov/authorities/subjects/sh85096661">Dipinto</dc:subject> 
+	<dc:format xsi:type="mp:AAT" mp:ref="http://vocab.getty.edu/page/aat/300178684">Olio su tela</dc:format>
+	<dc:extent>cm 82 x 73</dc:extent>
+	<dc:description>L’iconografia misteriosa, incentrata su due personaggi di cui non si comprende immediatamente la relazione – un giovane soldato e una madre nuda che allatta il proprio figlio – ha stimolato le interpretazioni più varie, anche in relazione al significato del paesaggio e al cielo squarciato dal fulmine che dà il titolo al dipinto. Ultimamente è stato proposto di leggere l’iconografia del dipinto in relazione a un poemetto encomiastico della famiglia Vendramin che identificherebbe il soldato con asta in Silvio, secondogenito di Enea, mentre sullo sfondo la madre Lavinia al momento di metterlo al mondo nella selva (da cui il nome). Piuttosto varie anche le datazioni proposte, che variano dal 1503 al 1509. È tuttavia più plausibile pensare la Tempesta commissionata da Gabriele Vendramin intorno al 1504, anno decisivo per il suo percorso personale, e quindi più lontana cronologicamente dalla pittura “monumentale” di Giorgione dei suoi ultimi anni.</dc:description>
+	<dc:date>1506/1508</dc:date>
+	<dc:provenance xsi:type="mp:GN" mp:ref="https://www.geonames.org/10628950/gallerie-dell-accademia.html">Gallerie dell'Accademia, Venezia</dc:provenance>
+	<dc:type>text</dc:type>
+	<dc:format>XML</dc:format>
+	<dc:identifier>tbd</dc:identifier>
+	<dc:source>Giorgione. La tempesta. 1506-1508. Olio su tela. 82x73 cm. Gallerie dell'Accademia. Venezia.</dc:source>
+	<dc:relation>https://www.gallerieaccademia.it/la-tempesta</dc:relation>
+	<dc:coverage>Venezia, Gallerie dell'Accademia</dc:coverage>
+</mp:metadata>
