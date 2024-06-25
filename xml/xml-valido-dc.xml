@@ -14,8 +14,8 @@
 	<dc:provenance xsi:type="mp:GN" mp:ref="https://www.geonames.org/10628950/gallerie-dell-accademia.html">Gallerie dell'Accademia, Venezia</dc:provenance>
 	<dc:type>text</dc:type>
 	<dc:format>XML</dc:format>
-	<dc:identifier>tbd</dc:identifier>
+	<dc:identifier>https://elisapoloni.github.io/Italian-Monuments-Men-and-Women/item.html</dc:identifier>
 	<dc:source>Giorgione. La tempesta. 1506-1508. Olio su tela. 82x73 cm. Gallerie dell'Accademia. Venezia.</dc:source>
 	<dc:relation>https://www.gallerieaccademia.it/la-tempesta</dc:relation>
-	<dc:coverage>Venezia, Gallerie dell'Accademia</dc:coverage>
+	<dc:coverage xsi:type="dcterms:TGN" mp:ref="http://vocab.getty.edu/page/tgn/7004847">Bologna</dc:coverage>
 </mp:metadata>

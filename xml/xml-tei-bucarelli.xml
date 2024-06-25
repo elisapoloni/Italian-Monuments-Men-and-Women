@@ -20,15 +20,25 @@
 		<body>
 			<p n="1">
 				<name type="nome-proprio" xml:id="PB" ref="http://viaf.org/viaf/79129998">Palma Bucarelli</name> 
-				fu prima ispettrice e poi direttrice della 
-				<name type="istituto" ref="https://sws.geonames.org/8015103/">Galleria Nazionale di Arte Moderna di Roma</name>
-				. Il suo operato è conservato presso l’
+				fu prima 
+				<rs type="persona" ref="#PB">ispettrice</rs> e poi 
+				<rs type="persona" ref="#PB">direttrice</rs> della 
+				<name type="istituto" ref="https://sws.geonames.org/8015103/" xml:id="GNAM">Galleria Nazionale di Arte Moderna</name> 
+				di 
+				<name type="città" ref="https://sws.geonames.org/3169070/">Roma</name>
+				. Il 
+				<rs type="persona" ref="#PB">suo</rs> 
+				operato è conservato presso l’
 				<name type="archivio">Archivio bioiconografico</name> della 
 				<choice>
 					<abb type="acronimo">GNAM</abb>
 					<expan>Galleria Nazionale di Arte Moderna</expan>
 				</choice>
-				, dove possiamo trovare documentazione riguardante donazioni o acquisti di opere, dossier sulle mostre e ritagli di giornale con le polemiche che suscitavano le sue scelte, ma soprattutto l’elenco delle opere che trasferì a Caprarola, i resoconti sugli spostamenti e le disposizioni per la protezione antiaerea. Donò invece all’
+				, dove possiamo trovare documentazione riguardante donazioni o acquisti di opere, dossier sulle mostre e ritagli di giornale con le polemiche che suscitavano le 
+				<rs type="persona" ref="#PB">sue</rs> 
+				scelte, ma soprattutto l’elenco delle opere che trasferì a 
+				<name type="città" ref="https://sws.geonames.org/3180635/">Caprarola</name>
+				, i resoconti sugli spostamenti e le disposizioni per la protezione antiaerea. Donò invece all’
 				<name type="istituto">Archivio Centrale dello Stato</name> 
 				documentazione personale, tra cui fotografie di famiglia, pagelle e appunti di scuola, biglietti di ammiratori, lettere del marito 
 				<name type="nome-proprio" ref="http://viaf.org/viaf/98064553">Paolo Monelli</name> 
@@ -36,45 +46,75 @@
 				<name type="nome-proprio" ref="http://viaf.org/viaf/56605075">Carlo Argan</name>.
 			</p>
 			<p n="2">
-				Nell’<date from="1941-06-20" to="1941-09-22">estate del 1941</date>
-				, quando il direttore 
-				<name type="nome-proprio" ref="http://viaf.org/viaf/42130209">Roberto Papini</name>
+				Nell’<date from="1941-06-20" to="1941-09-22" calendar="gregoriano">estate del 1941</date>
+				, quando il 
+				<rs type="persona" ref="#RP">direttore</rs> 
+				<name type="nome-proprio" ref="http://viaf.org/viaf/42130209" xml:id="RP">Roberto Papini</name>
 				si trasferì a 
-				<name type="città" ref="https://sws.geonames.org/3176959/">Firenze</name> per insegnare, 
-				<rs type="persona">Bucarelli</rs> 
-				divenne reggente della 
-				<rs type="istituto">Galleria</rs>
-				. A causa dell’assenza del direttore e dell’inadeguatezza delle misure che aveva proposto al Ministero, Bucarelli decise di percorrere delle soluzioni alternative, proponendo come rifugio per le opere della Galleria il 
-				<name type="istituto" ref="https://sws.geonames.org/8334595/">Palazzo Farnese di Caprarola</name>
-				. Il rifugio, a lei familiare perché meta delle vacanze estive in adolescenza, era abbastanza lontano da obiettivi militari ma allo stesso tempo abbastanza vicino a 
-				<name type="città">Roma</name> 
-				perché lei potesse effettuare sopralluoghi personalmente e di requente. Il 
-				<date>19 agosto 1941</date> 
+				<name type="città" ref="https://sws.geonames.org/3176959/">Firenze</name> 
+				per insegnare, 
+				<rs type="persona" ref="#PB">Bucarelli</rs> 
+				divenne 
+				<rs type="persona" ref="#PB">reggente</rs> 
+				della 
+				<rs type="istituto" ref="#GNAM">Galleria</rs>
+				. A causa dell’assenza del 
+				<rs type="persona" ref="#RP">direttore</rs> 
+				e dell’inadeguatezza delle misure che aveva proposto al 
+				<rs type="istituto">Ministero</rs>, 
+				<rs type="persona" ref="#PB">Bucarelli</rs> 
+				decise di percorrere delle soluzioni alternative, proponendo come rifugio per le opere della 
+				<rs type="istituto" ref="#GNAM">Galleria</rs> 
+				il 
+				<name type="istituto" ref="https://sws.geonames.org/8334595/" xml:id="PFC">Palazzo Farnese</name> 
+				di 
+				<name type="città" ref="https://sws.geonames.org/3180635/">Caprarola</name>
+				. Il 
+				<rs type="istituto" ref="#PFC">rifugio</rs>, a 
+				<rs type="persona" ref="#PB">lei</rs> 
+				familiare perché meta delle vacanze estive in adolescenza, era abbastanza lontano da obiettivi militari ma allo stesso tempo abbastanza vicino a 
+				<name type="città" ref="https://sws.geonames.org/3169070/">Roma</name> 
+				perché 
+				<rs type="persona" ref="#PB">lei</rs> 
+				potesse effettuare sopralluoghi personalmente e di requente. Il 
+				<date when="1941-08-19" calendar="gregoriano">19 agosto 1941</date> 
 				arrivò l’autorizzazione dal 
-				<name type="istituto">Ministero</name> 
+				<rs type="istituto">Ministero</rs> 
 				ed ebbe inizio l’operazione di imballaggio e trasferimento, accompagnata da meticolosi elenchi e documentazione fotografica. Una cartellina conservata nell’
-				<name>Archivio Centrale dello Stato</name> raccoglie l’elenco dei 
-				<num>22</num> viaggi che 
-				<date from="1941-09-12" to="1941-02-1942" calendar="gregoriano">dal 13 settembre 1941 al 6 febbraio 1942</date> portarono 
-				<num type="cardinale">832</num> opere da 
-				<name type="città">Roma</name> 
+				<name type="istituto">Archivio Centrale dello Stato</name> 
+				raccoglie l’elenco dei 
+				<num type="cardinale">22</num> 
+				viaggi che 
+				<date from="1941-09-12" to="1941-02-1942" calendar="gregoriano">dal 13 settembre 1941 al 6 febbraio 1942</date> 
+				portarono 
+				<num type="cardinale">832</num> 
+				opere da 
+				<name type="città" ref="https://sws.geonames.org/3169070/">Roma</name> 
 				a 
-				<name type="città">Caprarola</name>, con l’indicazione del numero delle casse trasportate e dei dipinti in esse contenuti. <name>Bucarelli</name> 
-				scortava le opere direttamente sui camion o seguendoli con la sua auto personale. L’importanza che la direttrice attribuiva al patrimonio artistico si rivelò anche nella decisione di riaprire la 
-				<rs type="istituto">Galleria</rs> 
+				<name type="città" ref="https://sws.geonames.org/3180635/">Caprarola</name>
+				, con l’indicazione del numero delle casse trasportate e dei dipinti in esse contenuti. 
+				<rs type="persona" ref="#PB">Bucarelli</rs> 
+				scortava le opere direttamente sui camion o seguendoli con la 
+				<rs type="persona" ref="#PB">sua</rs> 
+				auto personale. L’importanza che la 
+				<rs type="persona" ref="#PB">direttrice</rs> 
+				attribuiva al patrimonio artistico si rivelò anche nella decisione di riaprire la 
+				<rs type="istituto" ref="#GNAM">Galleria</rs> 
 				nell’
 				<date when="1942-04" calendar="gregoriano">aprile del 1942</date>
 				, mossa dalla necessità di offrire alla popolazione sconvolta dalla guerra qualcosa in cui sperare.
 			</p>
 			<p n="3">
 				Dopo l’armistizio il rifugio non era più sicuro: 
-				<name>Bucarelli</name> 
+				<rs type="persona" ref="#PB">Bucarelli</rs>
 				infatti venne informata dal custode del 
-				<rs type="istituto">Palazzo</rs>
+				<rs type="istituto" ref="#PFC">Palazzo</rs>
 				che i tedeschi si erano accampati nelle vicinanze e volevano occupare il borgo. Dopo diverse sollecitazioni, nel 
 				<date when="1943-11" calendar="gregoriano">novembre del 1943</date> 
-				arrivò l’autorizzazione del Ministero a trasferire le opere a 
-				<name type="">Castel Sant’Angelo</name> 
+				arrivò l’autorizzazione del 
+				<rs type="istituto">Ministero</rs> 
+				a trasferire le opere a 
+				<name type="istituto" ref="https://sws.geonames.org/6269267/">Castel Sant’Angelo</name> 
 				e 
 				<date from="1944-02-06" to="1944-03-06" calendar="gregoriano">tra il 6 febbraio e il 6 marzo 1944</date>
 				, viaggiando prevalentemente di notte, i beni vennero spostati.
@@ -82,9 +122,13 @@
 			<p n="4">
 				Nel 
 				<date when="06-1944" calendar="gregoriano">giugno del 1944</date> 
-				<name type="città">Roma</name> 
-				era finalmente liberata e Bucarelli non perdette tempo: riaprì la Galleria, allestendo nelle poche sale rimaste integre una mostra di artisti contemporanei e procedette al tempestivo rientro delle opere da 
-				<name type="istituto">Castel Sant’Angelo</name>.
+				<name type="città" ref="https://sws.geonames.org/3169070/">Roma</name> 
+				era finalmente liberata e 
+				<rs type="persona" ref="#PB">Bucarelli</rs> 
+				non perdette tempo: riaprì la 
+				<rs type="istituto" ref="#GNAM">Galleria</rs>
+				, allestendo nelle poche sale rimaste integre una mostra di artisti contemporanei e procedette al tempestivo rientro delle opere da 
+				<name type="istituto" ref="https://sws.geonames.org/6269267/">Castel Sant’Angelo</name>.
 			</p>
 		</body>
 	</text>
